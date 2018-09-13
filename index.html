@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<img src="imgs/logo_old.png" style="border: 0px;" />
+				</section>
+				<section>
+					<h2>O que é?</h2>
+				</section>
+				<section>
+					<p>
+						O QuebraDev é um podcast de origem periférica que surgiu com o objetivo de representar quem é de quebrada na área de tecnologia, além de tentar trazer para o cerne dessa profissão quem tem interesse em ingressar (priorizando o diálogo com quem é de quebrada).
+					</p>
+				</section>
+				<section>
+					<h2>O que queremos ser?</h2>
+				</section>
+				<section>
+					<p>
+						Um movimento social perifatécnico que visa atingir a periferia ensiando conceitos básicos de infomática, como usar a internet para pesquisar e aprender mais até a a programação em si para alunos mais avançados.
+					</p>
+				</section>
+				<section>
+					<h2>O que precisamos para ser isso?</h2>
+				</section>
+				<section>
+					<p></p>
+				</section>
+				<section>
+					<img src="imgs/logo_new.png" style="border: 0px;" />
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
